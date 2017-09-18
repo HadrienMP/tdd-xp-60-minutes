@@ -13,7 +13,9 @@ A kata to introduce, XP practises, in 60 minutes, in a mob programming fashion
 	* The refactor phases must go quickly to keep the keyboard turning
 
 ### The show
-__Introduction example__ : Hi, you are my development team ! Allow me to introduce myself, my name is XXX, I'm your customer. I need you to code my revolutionnary product : a number generator !
+__Sample introduction__ : Hi, you are my development team ! Allow me to introduce myself, my name is XXX, I'm your customer. I need you to code my revolutionnary product : a number generator !
+
+-----------
 
 Introduce one feature after the other (after each successful integration)
 
@@ -24,7 +26,7 @@ Introduce one feature after the other (after each successful integration)
 4. Inferior to 100
 5. The sum of its digits is equal to 6
 
-### Principes XP
+### XP Principles
 ![Original XP principles](https://ullizee.files.wordpress.com/2009/11/kent-beck-12-xp-practices.jpg)
 
 * Metaphor
