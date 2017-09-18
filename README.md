@@ -15,8 +15,6 @@ A kata to introduce, XP practises, in 60 minutes, in a mob programming fashion
 ### The show
 __Sample introduction__ : Hi, you are my development team ! Allow me to introduce myself, my name is XXX, I'm your customer. I need you to code my revolutionnary product : a number generator !
 
------------
-
 Introduce one feature after the other (after each successful integration)
 
 1. Even number
