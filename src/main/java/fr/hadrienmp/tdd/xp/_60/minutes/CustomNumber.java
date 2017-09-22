@@ -1,7 +1,7 @@
 package fr.hadrienmp.tdd.xp._60.minutes;
 
 class CustomNumber {
-    int generate() {
+    static int get() {
         return 42;
     }
 }
