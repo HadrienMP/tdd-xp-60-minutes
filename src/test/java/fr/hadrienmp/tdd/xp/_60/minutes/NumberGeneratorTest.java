@@ -32,4 +32,13 @@ class NumberGeneratorTest {
 
         assertThat(number).isGreaterThan(9);
     }
+
+    @Test
+    void should_generate_a_number_lower_than_100() {
+        NumberGenerator numberGenerator = new NumberGenerator();
+
+        int number = numberGenerator.generate();
+
+        assertThat(number).isLessThan(100);
+    }
 }
