@@ -1,6 +1,6 @@
 package fr.hadrienmp.tdd.xp._60.minutes;
 
-class NumberGenerator {
+class CustomNumber {
     int generate() {
         return 42;
     }
