@@ -1,6 +1,6 @@
 package fr.hadrienmp.tdd.xp._60.minutes;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class MyTest {
     @Test

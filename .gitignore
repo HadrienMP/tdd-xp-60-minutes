@@ -7,6 +7,9 @@ out
 
 ### Eclipse template
 
+.classpath
+.project
+
 .metadata
 bin/
 tmp/
