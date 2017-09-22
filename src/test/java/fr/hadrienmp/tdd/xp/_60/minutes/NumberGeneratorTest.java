@@ -23,4 +23,13 @@ class NumberGeneratorTest {
 
         assertThat(number % 10).isEqualTo(2);
     }
+
+    @Test
+    void should_generate_a_number_higher_than_9() {
+        NumberGenerator numberGenerator = new NumberGenerator();
+
+        int number = numberGenerator.generate();
+
+        assertThat(number).isGreaterThan(9);
+    }
 }
