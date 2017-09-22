@@ -41,4 +41,13 @@ class NumberGeneratorTest {
 
         assertThat(number).isLessThan(100);
     }
+
+    @Test
+    void the_sum_of_its_digits_is_6() {
+        NumberGenerator numberGenerator = new NumberGenerator();
+
+        int number = numberGenerator.generate();
+
+        assertThat(number / 10 + number % 10).isEqualTo(6);
+    }
 }
