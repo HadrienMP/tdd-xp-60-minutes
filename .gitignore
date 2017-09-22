@@ -1,6 +1,8 @@
 ### Intellij
 .idea
 *.iml
+.gradle
+out
 
 
 ### Eclipse template
@@ -54,3 +56,6 @@ local.properties
 .cache-main
 .scala_dependencies
 .worksheet
+.classpath
+.project
+build
