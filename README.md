@@ -12,6 +12,15 @@ A kata to introduce, XP practises, in 60 minutes, in a mob programming fashion
 	* The client is waiting for his product, better hurry !
 	* The refactor phases must go quickly to keep the keyboard turning
 
+### Process
+1. Test red
+2. Test greem
+3. Refactor
+4. Commit
+5. Push
+6. Check the build status
+7. If the build is green the client is considered to have received a working product and is happy.
+
 ### The show
 __Sample introduction__ : Hi, you are my development team ! Allow me to introduce myself, my name is XXX, I'm your customer. I need you to code my revolutionnary product : a number generator !
 
