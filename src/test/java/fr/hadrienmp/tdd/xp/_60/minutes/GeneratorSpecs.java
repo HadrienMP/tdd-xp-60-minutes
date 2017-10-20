@@ -24,4 +24,9 @@ public class GeneratorSpecs {
     public void should_return_number_higher_than_9() {
 		assertThat(generatedNumber).isGreaterThan(9);
 	}
+    
+    @Test
+    public void should_return_number_less_than_100() {
+		assertThat(generatedNumber).isLessThan(100);
+	}
 }
