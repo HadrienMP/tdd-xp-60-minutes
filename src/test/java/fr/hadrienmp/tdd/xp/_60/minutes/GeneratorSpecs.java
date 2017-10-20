@@ -29,4 +29,14 @@ public class GeneratorSpecs {
     public void should_return_number_less_than_100() {
 		assertThat(generatedNumber).isLessThan(100);
 	}
+    @Test
+    public void should_number_sum_equals_6() {
+    	assertThat(sumNumber(generatedNumber)).isTrue();
+    	}
+
+	private boolean sumNumber(int generatedNumber2) {
+		int division=generatedNumber2/10;
+		int reminder= generatedNumber2%10;
+		return division+reminder==6;
+	}
 }
