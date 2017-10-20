@@ -1,21 +1,27 @@
 package fr.hadrienmp.tdd.xp._60.minutes;
 
-import org.assertj.core.api.Assertions;
+import static org.assertj.core.api.Assertions.assertThat;
+
 import org.junit.Test;
 
 public class GeneratorSpecs {
     
+	int generatedNumber = new Generator().generate();
+	
 	@Test
     public void should_generate_odd_number() {
-    	int myNumber = new Generator().create();
-		Boolean isPair = (myNumber % 2 == 0);
-    	Assertions.assertThat(isPair).isTrue();
+    	Boolean isPair = (generatedNumber % 2 == 0);
+    	assertThat(isPair).isTrue();
     }
 
     @Test
 	public void should_generate_number_ending_by_2() throws Exception {
-    	int myNumber = new Generator().create();
-    	int lastdigit = myNumber % 10;
-		Assertions.assertThat(lastdigit).isEqualTo(2);
+    	int lastdigit = generatedNumber % 10;
+		assertThat(lastdigit).isEqualTo(2);
     }
+    
+    @Test
+    public void should_return_number_higher_than_9() {
+		assertThat(generatedNumber).isGreaterThan(9);
+	}
 }
