@@ -29,6 +29,11 @@ public class NumberGeneratorTest {
 		assertThat(String.valueOf(number)).endsWith("2");
 	}
 	
+	@Test
+	public void should_return_a_number_smaller_than_100() throws Exception {
+		assertThat(number).isLessThan(100);
+	}
+	
 	private int getNumber() {
 		return new NumberGenerator().getNumber();
 	}
