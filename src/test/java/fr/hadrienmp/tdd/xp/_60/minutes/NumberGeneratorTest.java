@@ -34,6 +34,13 @@ public class NumberGeneratorTest {
 		assertThat(number).isLessThan(100);
 	}
 	
+	@Test
+	public void should_return_a_number_whose_digits_sum_equals_6() throws Exception {
+		String[] digits = String.valueOf(number).split("");
+		int digitSum = Integer.valueOf(digits[0]) + Integer.valueOf(digits[1]);
+		assertThat(digitSum).isEqualTo(6);
+	}
+	
 	private int getNumber() {
 		return new NumberGenerator().getNumber();
 	}
