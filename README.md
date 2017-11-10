@@ -1,4 +1,4 @@
-# tdd-xp-60-minutes
+# tdd-xp-60-minutes [![Build Status](https://travis-ci.org/HadrienMP/tdd-xp-60-minutes.svg?branch=master)](https://travis-ci.org/HadrienMP/tdd-xp-60-minutes)
 Live the XP principles in a demo in mob programming and TDD in one hour ! 
 
 ## Host
