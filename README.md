@@ -52,3 +52,7 @@ Introduce one feature after the other (after each successful integration)
 	* Minimises duplication
 	* Maximises clarity
 	* Fewer elements
+
+
+# Credits
+Original kata by @AbidQuereshi : https://twitter.com/abidquereshi
