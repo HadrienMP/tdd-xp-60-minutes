@@ -1,2 +1,5 @@
 # tdd-xp-60-minutes
-A kata to introduce, XP practises, in 60 minutes, in a mob programming fashion
+Live the XP principles in a demo in mob programming and TDD in one hour ! 
+
+# Credits
+Original kata by (@AbidQuereshi)[https://twitter.com/abidquereshi]
