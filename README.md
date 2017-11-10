@@ -55,4 +55,4 @@ Introduce one feature after the other (after each successful integration)
 
 
 # Credits
-Original kata by @AbidQuereshi : https://twitter.com/abidquereshi
+Original kata by [@AbidQuereshi](https://twitter.com/abidquereshi)
