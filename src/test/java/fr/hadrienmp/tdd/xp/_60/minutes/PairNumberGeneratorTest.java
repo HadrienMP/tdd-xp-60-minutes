@@ -18,4 +18,12 @@ public class PairNumberGeneratorTest {
         PairNumberGenerator pairNumberGenerator = new PairNumberGenerator();
         Assert.assertTrue(pairNumberGenerator.generateNumber() % 10 == 2);
     }
+
+    @Test
+    public void my_number_is_greater_than_9()
+    {
+         PairNumberGenerator pairNumberGenerator = new PairNumberGenerator();
+         Assert.assertTrue(pairNumberGenerator.generateNumber() > 9);
+
+    }
 }
