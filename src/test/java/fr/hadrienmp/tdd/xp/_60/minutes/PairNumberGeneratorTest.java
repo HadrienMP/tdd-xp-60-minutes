@@ -26,4 +26,12 @@ public class PairNumberGeneratorTest {
          Assert.assertTrue(pairNumberGenerator.generateNumber() > 9);
 
     }
+
+    @Test
+    public void my_number_is_lower_than_100()
+    {
+        PairNumberGenerator pairNumberGenerator = new PairNumberGenerator();
+        Assert.assertTrue(pairNumberGenerator.generateNumber() < 100);
+
+    }
 }
