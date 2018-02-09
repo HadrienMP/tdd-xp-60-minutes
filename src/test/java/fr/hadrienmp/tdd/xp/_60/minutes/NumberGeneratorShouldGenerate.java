@@ -29,4 +29,11 @@ public class NumberGeneratorShouldGenerate {
         int number = NumberGenerator.generate();
         assertThat(number).isLessThan(100);
     }
+
+    @Test
+    public void numberSumOfDigitsEquals6() {
+        int number = NumberGenerator.generate();
+        int sumOfDigits = number / 10 + number % 10;
+        assertThat(sumOfDigits).isEqualTo(6);
+    }
 }
