@@ -17,4 +17,10 @@ public class NumberGeneratorShouldGenerate {
         int number = NumberGenerator.generate();
         assertThat(number % 10).isEqualTo(2);
     }
+
+    @Test
+    public void numberBiggerThan9() {
+        int number = NumberGenerator.generate();
+        assertThat(number).isGreaterThan(9);
+    }
 }
