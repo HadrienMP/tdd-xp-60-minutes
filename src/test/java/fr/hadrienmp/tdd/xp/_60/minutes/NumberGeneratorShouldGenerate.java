@@ -23,4 +23,10 @@ public class NumberGeneratorShouldGenerate {
         int number = NumberGenerator.generate();
         assertThat(number).isGreaterThan(9);
     }
+
+    @Test
+    public void numberLowerThan100() {
+        int number = NumberGenerator.generate();
+        assertThat(number).isLessThan(100);
+    }
 }
