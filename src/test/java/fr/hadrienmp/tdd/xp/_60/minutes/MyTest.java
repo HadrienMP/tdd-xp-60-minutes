@@ -5,10 +5,17 @@ import org.junit.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class MyTest {
+
+    private final GenerateurNombre generateurNombre = new GenerateurNombre();
+
     @Test
     public void le_nombre_est_pair() {
-        GenerateurNombre generateurNombre = new GenerateurNombre();
         int nombre = generateurNombre.nombre();
         assertThat(nombre % 2).isEqualTo(0);
+    }
+    @Test
+    public void le_nombre_se_termine_par_2() {
+        int nombre = generateurNombre.nombre();
+        assertThat(nombre % 10).isEqualTo(2);
     }
 }
