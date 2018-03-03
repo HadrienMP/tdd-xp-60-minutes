@@ -17,5 +17,12 @@ public class MyTest {
     public void le_nombre_se_termine_par_2() {
         int nombre = generateurNombre.nombre();
         assertThat(nombre % 10).isEqualTo(2);
+
+    }
+    @Test
+    public void le_nombre_est_superrieur_a_9() {
+        int nombre = generateurNombre.nombre();
+        assertThat(nombre ).isGreaterThan(9);
+
     }
 }
