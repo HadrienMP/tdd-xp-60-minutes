@@ -14,7 +14,7 @@ A kata to introduce, XP practises, in 60 minutes, in a mob programming fashion
 
 ### Process
 1. Test red
-2. Test greem
+2. Test green
 3. Refactor
 4. Commit
 5. Push
