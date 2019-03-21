@@ -21,10 +21,12 @@ public class MyTest {
 
     @Test
     public void itGeneratesNumberEndingWithTwo() {
+        Assert.assertTrue(numberGenerator.generateEvenNumber() % 10 == 2);
+    }
 
+    @Test
+    public void itGeneratesNumberGreaterThanNine() {
         int number = numberGenerator.generateEvenNumber();
-        String stringNumber = String.valueOf(number);
-        char lastChar = stringNumber.toCharArray()[stringNumber.length() - 1];
-        Assert.assertTrue(lastChar == '2');
+        Assert.assertTrue(number > 9);
     }
 }
