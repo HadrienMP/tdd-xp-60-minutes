@@ -3,6 +3,6 @@ package number;
 public class NumberGenerator {
 
     public int generateEvenNumber() {
-        return 0;
+        return 2;
     }
 }
