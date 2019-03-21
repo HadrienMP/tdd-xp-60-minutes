@@ -2,7 +2,7 @@ package number;
 
 public class NumberGenerator {
 
-    public int generateEvenNumber() {
-        return 12;
+    public int generate() {
+        return 42;
     }
 }
