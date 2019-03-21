@@ -29,4 +29,10 @@ public class MyTest {
         int number = numberGenerator.generateEvenNumber();
         Assert.assertTrue(number > 9);
     }
+
+    @Test
+    public void itGeneratesNumberLowerThanOneHundred() {
+        int number = numberGenerator.generateEvenNumber();
+        Assert.assertTrue(number < 100);
+    }
 }
