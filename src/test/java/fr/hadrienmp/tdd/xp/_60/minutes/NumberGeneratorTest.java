@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class NumberGeneratorTest {
 
-    final NumberGenerator generator = new NumberGenerator();
+    private final NumberGenerator generator = new NumberGenerator();
 
     @Test
     public void testNumberIsEven() {
@@ -19,4 +19,11 @@ public class NumberGeneratorTest {
         final int number = generator.generate();
         assertThat(String.valueOf(number)).endsWith("2");
     }
+
+    @Test
+    public void testNumberIsGreaterThan9() {
+        final int number = generator.generate();
+        assertThat(number).isGreaterThan(9);
+    }
+
 }
