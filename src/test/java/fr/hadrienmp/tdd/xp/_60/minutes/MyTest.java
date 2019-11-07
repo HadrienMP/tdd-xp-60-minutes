@@ -5,8 +5,12 @@ import org.junit.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class MyTest {
+
+    final NumberGenerator generator = new NumberGenerator();
+
     @Test
-    public void myTest() {
-        assertThat(0).isEqualTo(1);
+    public void testNumberIsEven() {
+        final int number = generator.generate();
+        assertThat(number % 2).isEqualTo(0);
     }
 }
