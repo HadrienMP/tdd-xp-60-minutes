@@ -36,4 +36,10 @@ public class NumberGeneratorTest {
         assertThat(number).isLessThan(100);
     }
 
+    @Test
+    public void testNumberDigitSumIsEqualTo6(){
+        final int number = generator.generate();
+
+        assertThat(number / 10 + number % 10).isEqualTo(6);
+    }
 }
